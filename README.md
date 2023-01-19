@@ -17,12 +17,11 @@ Clone
   git clone repo
   pip3 install -r requirements.txt
 ```
-## Add your API key
 
 ## Usage/Examples
 
 ```javascript
-
+# Dont forget to add your API key.
 python shodantool.py --orgname NAME 
 ```
 

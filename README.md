@@ -1,21 +1,16 @@
 # Shodantool
 
-** Search an organization name on Shodan, returning vulnerabilities.
+Search an organization name on Shodan, returning vulnerabilities.
 
+## Get an API key.
 
-
-## Authors
-
-- [@byinarie](https://www.github.com/byinarie)
-
+https://developer.shodan.io/api/requirements
 
 ## Installation
 
-Clone
-
 ```bash
-  git clone repo
-  pip3 install -r requirements.txt
+git clone repo
+pip3 install -r requirements.txt
 ```
 
 ## Usage/Examples
@@ -25,3 +20,7 @@ Clone
 python shodantool.py --orgname NAME 
 ```
 
+
+## Authors
+
+- [@byinarie](https://www.github.com/byinarie)

@@ -18,6 +18,8 @@ pip3 install -r requirements.txt
 ```javascript
 # Dont forget to add your API key.
 python shodantool.py --orgname NAME 
+python shodantool.py --orgname Consoto
+python shodantool.py --orgname "Consoto, LLC"
 ```
 
 

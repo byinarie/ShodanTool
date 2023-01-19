@@ -1,4 +1,4 @@
-# ShodanTool
+# Shodantool
 
 ** Search an organization name on Shodan, returning vulnerabilities.
 

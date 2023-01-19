@@ -1,4 +1,4 @@
-# Shodantool
+# ShodanTool
 
 Search an organization name on Shodan, returning vulnerabilities.
 
@@ -9,7 +9,7 @@ https://developer.shodan.io/api/requirements
 ## Installation
 
 ```bash
-git clone https://github.com/byinarie/Shodantool.git
+git clone https://github.com/byinarie/ShodanTool.git
 pip3 install -r requirements.txt
 ```
 
@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 
 ```
 # Dont forget to add your API key.
-python3 shodantool.py --orgname NAME 
-python3 shodantool.py --orgname Consoto
-python3 shodantool.py --orgname "Consoto, LLC"
+python3 ShodanTool.py --orgname NAME 
+python3 ShodanTool.py --orgname Consoto
+python3 ShodanTool.py --orgname "Consoto, LLC"
 ```

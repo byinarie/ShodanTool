@@ -2,7 +2,7 @@
 
 Search an organization name on Shodan, returning vulnerabilities.
 
-## Get an API key.
+## Get an API key
 
 https://developer.shodan.io/api/requirements
 

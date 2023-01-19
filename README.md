@@ -9,7 +9,7 @@ https://developer.shodan.io/api/requirements
 ## Installation
 
 ```bash
-git clone repo
+git clone https://github.com/byinarie/Shodantool.git
 pip3 install -r requirements.txt
 ```
 
@@ -17,9 +17,9 @@ pip3 install -r requirements.txt
 
 ```
 # Dont forget to add your API key.
-python shodantool.py --orgname NAME 
-python shodantool.py --orgname Consoto
-python shodantool.py --orgname "Consoto, LLC"
+python3 shodantool.py --orgname NAME 
+python3 shodantool.py --orgname Consoto
+python3 shodantool.py --orgname "Consoto, LLC"
 ```
 
 

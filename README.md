@@ -16,7 +16,6 @@ Clone
 ```bash
   git clone repo
   pip3 install -r requirements.txt
-  
 ```
 ## Add your API key
 

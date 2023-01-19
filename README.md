@@ -21,8 +21,3 @@ python3 shodantool.py --orgname NAME
 python3 shodantool.py --orgname Consoto
 python3 shodantool.py --orgname "Consoto, LLC"
 ```
-
-
-## Authors
-
-- [@byinarie](https://www.github.com/byinarie)

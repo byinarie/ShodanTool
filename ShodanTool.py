@@ -5,7 +5,7 @@ from termcolor import colored
 @click.command()
 @click.option('--orgname', prompt='Enter the name of the organization', help='The name of the organization')
 def search(orgname):
-    # Replace YOUR_API_KEY with your actual Shodan API key
+    # Replace with your actual Shodan API key
     api = shodan.Shodan('api-key')
     try:
         # Perform the search

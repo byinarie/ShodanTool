@@ -11,6 +11,10 @@ https://developer.shodan.io/api/requirements
 ```bash
 git clone https://github.com/byinarie/ShodanTool.git
 pip3 install -r requirements.txt
+
+or
+
+pip3 install click && pip3 install termcolor && pip3 install shodan
 ```
 
 ## Usage/Examples

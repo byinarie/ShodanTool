@@ -11,8 +11,9 @@ import time
 @click.option('--orgname', '-on', help='The name of the organization.')
 @click.option('--output', '-op', default='shodan_output.csv', help='Name of the output file.')
 @click.option('--api-key', '-ak', required=True, help='Shodan API key.')
-@click.option('--search', '-s', is_flag=True, help='Search for exploits using searchsploit.')
+@click.option('--search', '-s', is_flag=True, help='Search for exploits using Searchsploit.')
 @click.option('--api-check', is_flag=True, help='Check Shodan API limits.')
+
 def search(orgname, output, api_key, search, api_check=False):
     # Initialize Shodan API with provided API key
     api = shodan.Shodan(api_key)

@@ -62,7 +62,7 @@ def search(orgname, output, api_key, search, api_check=False):
                     else:
                         vuln_dict[ip_str] = [vuln]
 
-        # Search Shodan for the org's IP address(es)
+        # Search Shodan for the org's IP address(s)
         results = api.search("org:{}".format(orgname))
 
         # Output to CSV file

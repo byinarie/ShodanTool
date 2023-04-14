@@ -1,6 +1,6 @@
 # ShodanTool
 
-Search an organization name on Shodan, returning vulnerabilities.
+Search an organization name on Shodan, returning vulnerabilities and exploits.
 
 ## Get an API key
 

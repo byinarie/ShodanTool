@@ -21,7 +21,8 @@ pip3 install click && pip3 install termcolor && pip3 install shodan
 
 ```
 # Dont forget to add your API key.
-python3 ShodanTool.py --orgname NAME --output file_name
-python3 ShodanTool.py --orgname Consoto --output file_name
-python3 ShodanTool.py --orgname "Consoto, LLC"  --output file_name
+python3 ShodanTool.py --api-key KEY --orgname "NAME" --output OUT.csv
+python3 ShodanTool.py --orgname NAME --output OUT.csv
+python3 ShodanTool.py --orgname Consoto --output OUT.csv
+python3 ShodanTool.py --orgname "Consoto, LLC"  --output OUT.csv
 ```

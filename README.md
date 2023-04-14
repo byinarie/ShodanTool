@@ -15,22 +15,24 @@ pip3 install -r requirements.txt
 or
 
 pip3 install click && pip3 install termcolor && pip3 install shodan
-
-To use the --search function you must have searchsploit installed. See: https://gitlab.com/exploit-database/exploitdb
 ```
 
-## Usage/Examples
+# Usage/Examples
 
+#### To use the --search function you must have searchsploit installed. 
+See: https://gitlab.com/exploit-database/exploitdb
+
+## Search and output host information, cross reference results with Searchsploit into a CSV
 ```
-# Dont forget to add your API key.
-python3 ShodanTool.py --help
-
 python3 ShodanTool.py --api-key KEY --orgname "ORG" --output ORG.csv --search 
-
+```
+## Search and output host information into a CSV
+```
 python3 ShodanTool.py --api-key KEY --orgname "ORG" --output ORG.csv
+```
 
-python3 ShodanTool.py --api-key KEY --
-
+## Check your Query credits
+```
 python3 ShodanTool.py --api-check --api-key 
 ```
 
